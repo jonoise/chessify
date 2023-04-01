@@ -1,7 +1,0 @@
-# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
-v: 0
-micros:
-  - name: chessky
-    src: .
-    engine: next
-    primary: true

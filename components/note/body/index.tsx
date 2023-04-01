@@ -10,7 +10,7 @@ export const NoteBody: FC<Props> = ({ body }) => {
   return (
     <div className='w-full flex flex-col items-center py-10 space-y-5'>
       {body.map((element) => {
-        return <ElementWrapper element={element} />
+        return <ElementWrapper key={element.key} element={element} />
       })}
     </div>
   )

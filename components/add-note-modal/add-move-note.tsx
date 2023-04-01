@@ -13,6 +13,7 @@ export const AddMoveNote: FC<Props> = ({ setMoveNotes }) => {
     turn: '',
     turnMoves: '',
     note: '',
+    type: 'move',
     key: nanoid(),
   })
 
@@ -82,6 +83,7 @@ export const AddMoveNote: FC<Props> = ({ setMoveNotes }) => {
                 turn: '',
                 turnMoves: '',
                 note: '',
+                type: 'move',
                 key: nanoid(),
               })
             }}
